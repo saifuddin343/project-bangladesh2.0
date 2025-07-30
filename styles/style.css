@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Fira Sans", sans-serif;
+    background-color: #f5f5f5;
+}
+header {
+    max-width: 80%;
+    margin: 0 auto 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 44px;
+}
+nav > h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    background-color: transparent;
+}
+.btn:hover {
+    background-color: #006A50;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn:active {
+    scale: 0.80;
+    background-color: #001f17;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.banner {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 60px;
+}
+.banner-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-title {
+    font-size: 56px;
+    font-weight: bold;
+    margin: 16px 0 24px;
+}
+.banner > div  {
+    width: 50%;
+}
+.banner-btn {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.banner-btn:hover {
+    background-color: #3f695f;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.banner-btn:active {
+    scale: 0.80;
+    background-color: #001f17;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.sec2 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.sec2-title {
+    color: #0E0E0E; 
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.sec2-card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px 0 12px;
+}
+.sec2-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.sec2-card {
+    padding: 24px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.sec3 {
+    max-width: 80%;
+    margin: 80px auto;
+}
+.sec3-title {
+    color: #0E0E0E; 
+    font-size: 40px;
+    font-weight: bold;
+}
+.sec3-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.sec3-card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px 0 12px;
+}
+.sec3-card-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.sec3-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+}
+.sec3-card {
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec3-card-btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.sec3-card-btn:hover {
+    opacity: 70%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.sec3-card-btn:active {
+    opacity: 90%;
+    scale: 0.80;
+    transition: all 0.5s ease-in-out;
+}
+.sec3-2 {
+    margin-top: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px 24px;
+    position: relative;
+}
+.quote-bg {
+    position: absolute;
+    top: 24px;
+    left: 28px;
+    opacity: 30%;
+}
+.sec3-2 > h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 12px 0 4px;
+}
