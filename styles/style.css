@@ -165,7 +165,8 @@ nav>h2 {
 }
 
 .sec3-card-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: stretch;
     gap: 24px;
@@ -517,9 +518,8 @@ nav>h2 {
 }
 
 .sec7-input-container > button:hover {
-    border: 1px solid #006A50;
-    background-color: transparent;
-    color: #006A50;
+    background-color: #3f695f;
+    color: white;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -532,4 +532,38 @@ nav>h2 {
     color: rgba(14, 14, 14, 0.7);
     margin-top: 24px;
     text-align: center;
+}
+footer {
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h3 {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+footer hr {
+    width: 70%;
+    margin: 32px auto;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.footer-icon img {
+    width: 28px;
+    height: auto;
+}
+
+.footer-icon img:hover {
+    opacity: 75%;
+    cursor: pointer;
 }
