@@ -294,3 +294,67 @@ nav>h2 {
     background-repeat: no-repeat;
     background-position: right 5px center;
 }
+.sec5 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.sec5-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sec5-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.sec5-container {
+    display: grid;
+    gap: 24px;
+}
+.sec5-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+}
+.sec5-card-container > img {
+    border-radius: 24px;
+}
+.sec5-card-title {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px; 
+}
+.sec5-card-txt {
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+}
+.sec5-card-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 26px;
+    background-color: #006A50;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 32px; 
+}
+.sec5-card-btn:hover {
+    border: 1px solid #006A50;
+    background-color: transparent;
+    color: #006A50;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.sec5-card-btn:active {
+    background-color: #001f17;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
