@@ -3,25 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Fira Sans", sans-serif;
     background-color: #f5f5f5;
 }
+
 header {
     max-width: 80%;
     margin: 0 auto 80px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 24px 0 44px;
 }
-nav > h2 {
+
+nav>h2 {
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
 }
+
 .btn {
     font-size: 18px;
     font-weight: 600;
@@ -31,12 +36,14 @@ nav > h2 {
     border-radius: 8px;
     background-color: transparent;
 }
+
 .btn:hover {
     background-color: #006A50;
     color: white;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .btn:active {
     scale: 0.80;
     background-color: #001f17;
@@ -44,6 +51,7 @@ nav > h2 {
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
+
 .banner {
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -53,19 +61,23 @@ nav > h2 {
     gap: 40px;
     padding: 80px 60px;
 }
+
 .banner-subtitle {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
 }
+
 .banner-title {
     font-size: 56px;
     font-weight: bold;
     margin: 16px 0 24px;
 }
-.banner > div  {
+
+.banner>div {
     width: 50%;
 }
+
 .banner-btn {
     font-weight: 600;
     font-size: 18px;
@@ -75,12 +87,14 @@ nav > h2 {
     border-radius: 8px;
     border: 1px solid transparent;
 }
+
 .banner-btn:hover {
     background-color: #3f695f;
     color: white;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .banner-btn:active {
     scale: 0.80;
     background-color: #001f17;
@@ -88,63 +102,75 @@ nav > h2 {
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
+
 .sec2 {
     max-width: 80%;
     margin: 0 auto;
 }
+
 .sec2-title {
-    color: #0E0E0E; 
+    color: #0E0E0E;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 32px;
 }
+
 .sec2-card-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: bold;
     margin: 24px 0 12px;
 }
+
 .sec2-card-container {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
+
 .sec2-card {
     padding: 24px;
     background-color: white;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
+
 .sec3 {
     max-width: 80%;
     margin: 80px auto;
 }
+
 .sec3-title {
-    color: #0E0E0E; 
+    color: #0E0E0E;
     font-size: 40px;
     font-weight: bold;
 }
+
 .sec3-subtitle {
     color: rgba(14, 14, 14, 0.7);
     margin-top: 24px;
     margin-bottom: 32px;
 }
+
 .sec3-card-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: bold;
     margin: 24px 0 12px;
 }
+
 .sec3-card-subtitle {
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 24px;
 }
+
 .sec3-card-container {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 24px;
 }
+
 .sec3-card {
     padding: 32px;
     border-radius: 16px;
@@ -152,6 +178,7 @@ nav > h2 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .sec3-card-btn {
     padding: 10px 20px;
     font-weight: 700;
@@ -159,16 +186,19 @@ nav > h2 {
     border: 1px solid transparent;
     border-radius: 8px;
 }
+
 .sec3-card-btn:hover {
     opacity: 70%;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .sec3-card-btn:active {
     opacity: 90%;
     scale: 0.80;
     transition: all 0.5s ease-in-out;
 }
+
 .sec3-2 {
     margin-top: 32px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -177,15 +207,90 @@ nav > h2 {
     padding: 48px 24px;
     position: relative;
 }
+
 .quote-bg {
     position: absolute;
     top: 24px;
     left: 28px;
     opacity: 30%;
 }
-.sec3-2 > h4 {
+
+.sec3-2>h4 {
     color: rgba(14, 14, 14, 0.8);
     font-weight: 700;
     font-size: 20px;
     margin: 12px 0 4px;
+}
+
+.sec4 {
+    max-width: 80%;
+    margin: 0 auto 80px;
+}
+
+.sec4-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.th {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #C6E4D6;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.th-txt {
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.table-container {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.tab-txt {
+    color: #0E0E0E;
+    padding: 34px;
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-top: none;
+    font-weight: 700;
+}
+
+.tab-select {
+    border-right: 1px solid rgba(14, 14, 14, 0.15);
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 24px;
+}
+
+.tab-container select {
+    border: 1px solid rgba(14, 14, 14, 0.25);
+    background-color: #C6E4D6;
+    padding: 14px 20px;
+    color: #0E0E0E;
+    border-radius: 4px;
+    font-weight: 600;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="%230E0E0E" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 5px center;
 }
